@@ -1,0 +1,14 @@
+# Ignore the target directory where Cargo builds the project
+/target
+
+# Ignore Cargo.lock for libraries (not binaries)
+# Optional: Only if you're writing a library crate
+# Cargo.lock
+
+# Optional: IDE-specific files (VSCode example)
+.vscode/
+.idea/
+
+# Optional: OS-specific junk files
+.DS_Store
+Thumbs.db
